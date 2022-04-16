@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidExampleDesign</string>
+    <string name="urunAdi">AirPods (2. nesil) Kulaklık</string>
+    <string name="kargoBilgi">Kargo Bedava</string>
+    <string name="teslimatBilgi">Hızlı Teslimat</string>
+    <string name="taksitBilgi">Peşin Fiyatına 6 Taksit</string>
+    <string name="urunDetay">Yeni AirPods, kablosuz kulaklık deneyimini yepyeni bir tasarımla sunuyor. Şarj kutusundan çıkardığınız anda iPhone, Apple Watch, iPad veya Mac’inizle kullanmaya başlayabilirsiniz.</string>
+    <string name="urunFiyat">2150 ₺</string>
+    <string name="sepeteEkle">SEPETE EKLE</string>
+    <string name="baslik">Tekno Market</string>
+</resources>
