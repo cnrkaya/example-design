@@ -12,14 +12,10 @@
         tools:layout="@layout/fragment_anasayfa" >
         <action
             android:id="@+id/aEkraninaGecis"
-            app:destination="@id/sayfaAFragment"
-            app:popUpTo="@id/anasayfaFragment"
-            app:popUpToInclusive="true" />
+            app:destination="@id/sayfaAFragment" />
         <action
             android:id="@+id/xEkraninaGecis"
-            app:destination="@id/sayfaXFragment"
-            app:popUpTo="@id/anasayfaFragment"
-            app:popUpToInclusive="true" />
+            app:destination="@id/sayfaXFragment" />
     </fragment>
     <fragment
         android:id="@+id/sayfaAFragment"
