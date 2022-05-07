@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/siparis" android:title="Sipariş" android:icon="@drawable/silverware_fork_knife"></item>
+    <item android:id="@+id/ara" android:title="Ara" android:icon="@drawable/magnify"></item>
+    <item android:id="@+id/sepetim" android:title="Sepetim" android:icon="@drawable/basket"></item>
+    <item android:id="@+id/canliYardim" android:title="Canlı Yardım" android:icon="@drawable/chat"></item>
+    <item android:id="@+id/hesabim" android:title="Hesabım" android:icon="@drawable/text_account"></item>
+</menu>
