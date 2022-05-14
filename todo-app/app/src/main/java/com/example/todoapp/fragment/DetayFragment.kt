@@ -20,7 +20,7 @@ class DetayFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         tasarim = DataBindingUtil.inflate(inflater,R.layout.fragment_detay, container, false)
         tasarim.yapilacakDetayFragment = this
-        tasarim.toolbarYapilacakDetay.title = "Yapilacak Detay"
+        tasarim.yapilacaklarToolbarBaslik = "Yapilacak Detay"
 
         val bundle:DetayFragmentArgs by navArgs()
         val gelenYapilacak= bundle.yapilacak

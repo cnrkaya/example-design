@@ -29,7 +29,7 @@ class AnasayfaFragment : Fragment(), SearchView.OnQueryTextListener {
     ): View? {
         tasarim = DataBindingUtil.inflate(inflater, R.layout.fragment_anasayfa, container, false)
         tasarim.anasayfaFragment = this
-        tasarim.toolbarAnasayfa.title = "Yapılacaklar"
+        tasarim.anasayfaToolbarBaslik = "Yapılacaklar"
         (activity as AppCompatActivity).setSupportActionBar(tasarim.toolbarAnasayfa)
 
 

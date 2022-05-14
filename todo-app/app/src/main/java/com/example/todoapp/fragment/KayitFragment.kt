@@ -18,7 +18,7 @@ class KayitFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         tasarim = DataBindingUtil.inflate(inflater,R.layout.fragment_kayit, container, false)
         tasarim.kayitFragment = this
-        tasarim.toolbarYapilacakKayit.title = "Yapılacak Kayıt"
+        tasarim.yapilacaklarKayitToolbarBaslik = "Yapılacak Kayıt"
 
         return tasarim.root
     }

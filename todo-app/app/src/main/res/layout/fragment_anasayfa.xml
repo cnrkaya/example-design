@@ -18,6 +18,7 @@
             android:id="@+id/toolbarAnasayfa"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            app:title="@{anasayfaToolbarBaslik}"
             android:background="?attr/colorPrimary"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
